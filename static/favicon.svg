@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1{fill:#98d831}.cls-2{fill:#1a2b3c}
+    </style>
+  </defs>
+  <path d="M0 0h400v400H0z" class="cls-2"/>
+  <path d="M112.5 95h40.07v86.33h94.87V95h40.07v210h-40.07v-86.62h-94.87V305H112.5V95Z" class="cls-1"/>
+</svg>

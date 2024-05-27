@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://heiko-salmon.de/assets/font/Montserrat-Regular.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://heiko-salmon.de/assets/font/Montserrat-Bold.woff2) format('woff2');
+  }
+
+  html {
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+
+  .header-link {
+    @apply transition-all duration-200 hover:text-heiko-orange-500;
+  }
+}

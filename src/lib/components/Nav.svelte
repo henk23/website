@@ -2,8 +2,8 @@
   import HSLogo from '$lib/assets/hs-logo.svg?raw';
 </script>
 
-<nav class="text-white font-bold uppercase p-4 border-b-2 border-white">
-  <div class="container mx-auto">
+<nav class="fixed w-full bg-grey-950/70 backdrop-blur-sm text-white font-bold uppercase p-4">
+  <div class="container">
     <div class="flex items-center justify-between">
       <div class="w-20 text-white">
         {@html HSLogo}
@@ -19,6 +19,7 @@
 
 <style lang="postcss">
   nav {
-    background: linear-gradient(to right, theme('colors.heiko-blue.950') 0%, theme('colors.heiko-blue.800') 100%);
+    /*background: linear-gradient(to right, theme('colors.heiko-blue.950') 0%, theme('colors.heiko-blue.800') 100%);*/
+    /*background: #0a0b0b; !*theme('colors.gray.800');*!*/
   }
 </style>

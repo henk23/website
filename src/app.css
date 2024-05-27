@@ -27,6 +27,10 @@
     font-smoothing: antialiased;
   }
 
+  body {
+    background-color: #282e33;
+  }
+
   svg {
     max-width: 100%;
     height: auto;
@@ -36,6 +40,6 @@
 @layer components {
 
   .header-link {
-    @apply transition-all duration-200 hover:text-heiko-orange-500;
+    @apply transition-all duration-200 hover:text-orange-500;
   }
 }

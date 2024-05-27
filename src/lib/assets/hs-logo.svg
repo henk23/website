@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 208" width="295" height="208">
   <defs>
     <linearGradient id="logoGradient" gradientTransform="rotate(45)">
-      <stop offset="0%" stop-color="#e27d00" />
-      <stop offset="100%" stop-color="#ffc81b" />
+      <stop offset="0%" stop-color="#df7600" />
+      <stop offset="100%" stop-color="#fca310" />
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"

@@ -5,9 +5,9 @@
 <nav class="fixed w-full bg-grey-950/70 backdrop-blur-sm text-white font-bold uppercase p-4">
   <div class="container">
     <div class="flex items-center justify-between">
-      <div class="w-20 text-white">
+      <a href="/" class="block w-20 text-white">
         {@html HSLogo}
-      </div>
+      </a>
       <ul class="text-right sm:flex sm:gap-6 sm:text-lg lg:text-xl">
         <li><a href="#referenzen" class="header-link">Referenzen</a></li>
         <li><a href="#ueber-mich" class="header-link">Über mich</a></li>

@@ -1,10 +1,11 @@
 <script>
   import Hero from '$lib/components/Hero.svelte';
   import LogoWall from '$lib/components/LogoWall.svelte';
+  import References from '$lib/components/References.svelte';
   import Tools from '$lib/components/Tools.svelte';
   import AboutMe from '$lib/components/AboutMe.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  import References from '$lib/components/References.svelte';
+  import Contact from '$lib/components/Contact.svelte';
 
   export let data;
 </script>
@@ -19,5 +20,6 @@
   <References projects={data.projects}/>
   <Tools/>
   <AboutMe/>
+  <Contact/>
   <Footer/>
 </main>

@@ -15,6 +15,14 @@
   import logo_mariadb from '$lib/assets/tools/mariadb.svg';
   import logo_postgresql from '$lib/assets/tools/postgresql.svg';
   import logo_sqlite from '$lib/assets/tools/sqlite.svg';
+  import logo_ubuntu from '$lib/assets/tools/ubuntu.svg';
+  import logo_caddy from '$lib/assets/tools/caddy.svg';
+  import logo_nginx from '$lib/assets/tools/nginx.svg';
+  import logo_apache from '$lib/assets/tools/apache.svg';
+  import logo_vite from '$lib/assets/tools/vite.svg';
+  import logo_sass from '$lib/assets/tools/sass.svg';
+  import logo_git from '$lib/assets/tools/git.svg';
+  import logo_docker from '$lib/assets/tools/docker.svg';
 </script>
 
 <section class="">
@@ -23,21 +31,21 @@
       Diese Tools und Technologien setze ich ein.
     </h2>
 
-    <h3 class="text-2xl">Standards</h3>
+    <h3 class="text-2xl font-bold py-4">Standards</h3>
 
     <img src={logo_html5} alt="HTML5"> HTML5
     <img src={logo_css3} alt="CSS3"> CSS3
     <img src={logo_javascript} alt="JavaScript"> Javascript (ES6)
-    <img src={logo_responsive} alt="Responsive"> responseive / mobile / tablet
+    <img src={logo_responsive} alt="Responsive"> responsive / mobile / tablet
 
-    <h3 class="text-2xl">Frontend</h3>
+    <h3 class="text-2xl font-bold py-4">Frontend</h3>
 
     <img src={logo_svelte} alt="Svelte / SvelteKit"> Svelte / SvelteKit
     <img src={logo_vue} alt="JavaScript"> Vue.js
     <img src={logo_nuxt} alt="Nuxt"> Nuxt
     <img src={logo_tailwind} alt="TailwindCSS"> Tailwind CSS
 
-    <h3 class="text-2xl">Backend</h3>
+    <h3 class="text-2xl font-bold py-4">Backend</h3>
 
     <img src={logo_nodejs} alt="Node.js"> Node.js / Express
     <img src={logo_php} alt="PHP"> PHP
@@ -48,19 +56,26 @@
     <img src={logo_postgresql} alt="PostgreSQL"> PostgreSQL
     <img src={logo_sqlite} alt="SQLite"> SQLite
 
-    <h3 class="text-2xl">Server</h3>
+    <h3 class="text-2xl font-bold py-4">Server</h3>
 
-    Ubuntu
-    Caddy
-    Nginx
-    Apache
+    <img src={logo_ubuntu} alt="Ubuntu"> Ubuntu
+    <img src={logo_caddy} alt="Caddy"> Caddy
+    <img src={logo_nginx} alt="Nginx"> Nginx
+    <img src={logo_apache} alt="Apache HTTP Server"> Apache HTTP Server
 
-    <h3 class="text-2xl">Tools</h3>
+    <h3 class="text-2xl font-bold py-4">Tools</h3>
 
-    Vite
-    SASS
-    Git
-    Docker
-
+    <img src={logo_vite} alt="Vite"> Vite
+    <img src={logo_sass} alt="SASS"> SASS
+    <img src={logo_git} alt="Git"> Git
+    <img src={logo_docker} alt="Docker"> Docker
   </div>
 </section>
+
+<style lang="postcss">
+  img {
+    display: inline-block;
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+</style>

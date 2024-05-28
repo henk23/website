@@ -1,8 +1,9 @@
 <script>
   import heikoPhoto from '$lib/assets/heiko-salmon300.jpg';
+  import LogoWall from '$lib/components/LogoWall.svelte';
 </script>
 
-<main class="text-white p-4">
+<main class="text-white">
   <section class="flex items-center justify-around container py-44">
     <div class="font-bold">
       <div class="text-6xl leading-none">Heiko Salmon</div>
@@ -14,6 +15,9 @@
       <img src={heikoPhoto} alt="Foto von Heiko">
     </div>
   </section>
+
+  <LogoWall/>
+
   <section class="text-3xl py-32">
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
     labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores

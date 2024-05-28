@@ -1,4 +1,5 @@
 <script>
+  import Nav from '$lib/components/Nav.svelte';
   import Hero from '$lib/components/Hero.svelte';
   import LogoWall from '$lib/components/LogoWall.svelte';
   import References from '$lib/components/References.svelte';
@@ -13,6 +14,8 @@
 <svelte:head>
   <title>Heiko Salmon - Full-Stack Web Developer Freelancer - Javascript | Svelte | Vue.js | PHP | Datenbanken</title>
 </svelte:head>
+
+<Nav/>
 
 <main>
   <Hero/>

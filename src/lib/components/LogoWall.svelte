@@ -45,7 +45,7 @@
 
     <div class="grid gap-8 grid-cols-2 py-8 sm:grid-cols-3 sm:gap-16 sm:py-16 lg:grid-cols-4 lg:gap-16 lg:py-20">
       {#each logos as logo}
-        <div class="logo flex items-center justify-center py-6">
+        <div class="logo flex items-center justify-center min-h-24">
           <img src={logo} alt="Logo">
         </div>
       {/each}

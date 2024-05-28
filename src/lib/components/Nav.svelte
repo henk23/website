@@ -16,10 +16,3 @@
     </div>
   </div>
 </nav>
-
-<style lang="postcss">
-  nav {
-    /*background: linear-gradient(to right, theme('colors.heiko-blue.950') 0%, theme('colors.heiko-blue.800') 100%);*/
-    /*background: #0a0b0b; !*theme('colors.gray.800');*!*/
-  }
-</style>

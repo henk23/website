@@ -3,6 +3,7 @@
   import LogoWall from '$lib/components/LogoWall.svelte';
   import Technologies from '$lib/components/Technologies.svelte';
   import AboutMe from '$lib/components/AboutMe.svelte';
+  import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <main>
@@ -10,4 +11,5 @@
   <LogoWall/>
   <Technologies/>
   <AboutMe/>
+  <Footer/>
 </main>

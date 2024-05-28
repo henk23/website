@@ -13,6 +13,7 @@
 
 <svelte:head>
   <title>Heiko Salmon - Full-Stack Web Developer Freelancer - Javascript | Svelte | Vue.js | PHP | Datenbanken</title>
+  <meta name="description" content="Web Freelancer für moderne Web-Technologien | HTML5 | CSS3 | Javascript | Svelte | Vue.js | PHP">
 </svelte:head>
 
 <Nav/>

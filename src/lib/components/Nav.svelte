@@ -5,7 +5,7 @@
 <nav class="fixed w-full bg-grey-950/70 backdrop-blur-sm text-white font-bold uppercase p-4">
   <div class="container">
     <div class="flex items-center justify-between">
-      <a href="/" class="block w-20 text-white">
+      <a href="/" class="block w-20 text-white" aria-label="Zurück nach oben">
         {@html HSLogo}
       </a>
       <ul class="text-right sm:flex sm:gap-6 sm:text-lg lg:text-xl">

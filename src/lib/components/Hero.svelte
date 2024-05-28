@@ -1,5 +1,5 @@
 <script>
-  import heikoPhoto from '$lib/assets/heiko-salmon300.jpg';
+  import heikoPhoto from '$lib/assets/heiko-salmon.webp';
 
   const experienceYears = Math.round((new Date() - 1293840000000) / (1000 * 60 * 60 * 24 * 365));
 </script>

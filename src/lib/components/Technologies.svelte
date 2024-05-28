@@ -61,7 +61,7 @@
     { name: 'Ubuntu', icon: logo_ubuntu },
     { name: 'Caddy', icon: logo_caddy },
     { name: 'Nginx', icon: logo_nginx },
-    { name: 'Apache HTTP Server', icon: logo_apache },
+    { name: 'Apache', icon: logo_apache },
   ];
 
   const tools = [
@@ -70,87 +70,36 @@
     { name: 'Git', icon: logo_git },
     { name: 'Docker', icon: logo_docker },
   ];
+
+  const areas = [
+    { title: 'Standards', items: standards },
+    { title: 'Frontend', items: frontend },
+    { title: 'Backend', items: backend },
+    { title: 'Datenbanken', items: database },
+    { title: 'Server', items: server },
+    { title: 'Tools', items: tools },
+  ];
 </script>
 
-<section class="">
+<section id="tools">
   <div class="container py-8 px-6">
     <h2 class="text-3xl text-white font-bold sm:text-4xl lg:text-5xl">
       Diese Tools und Technologien setze ich ein.
     </h2>
 
-    <h3 class="text-2xl font-bold py-4">Standards</h3>
+    {#each areas as area}
+      <h3 class="text-xl uppercase font-extrabold tracking-wide text-white text-center py-8 sm:text-2xl sm:py-12 lg:text-3xl">
+        {area.title}
+      </h3>
 
-    <div class="flex items-center justify-center gap-6 font-bold">
-      {#each standards as item}
-        <div class="flex flex-col items-center justify-center">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
-
-    <h3 class="text-2xl font-bold py-4">Frontend</h3>
-
-    <div class="relative flex items-center justify-center gap-6 font-bold">
-      {#each frontend as item}
-        <div class="flex flex-col items-center justify-between h-full">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
-
-    <h3 class="text-2xl font-bold py-4">Backend</h3>
-
-    <div class="flex items-center justify-center gap-6 font-bold">
-      {#each backend as item}
-        <div class="flex flex-col items-center justify-center">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
-
-    <h3 class="text-2xl font-bold py-4">Datenbanken</h3>
-
-    <div class="flex items-center justify-center gap-6 font-bold">
-      {#each database as item}
-        <div class="flex flex-col items-center justify-center">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
-
-    <h3 class="text-2xl font-bold py-4">Server</h3>
-
-    <div class="flex items-center justify-center gap-6 font-bold">
-      {#each server as item}
-        <div class="flex flex-col items-center justify-center">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
-
-    <h3 class="text-2xl font-bold py-4">Tools</h3>
-
-    <div class="flex items-center justify-center gap-6 font-bold">
-      {#each tools as item}
-        <div class="flex flex-col items-center justify-center">
-          <img src={item.icon} alt={item.name}>
-          <div class="pt-4">{item.name}</div>
-        </div>
-      {/each}
-    </div>
+      <div class="flex flex-wrap items-center justify-center mb-8">
+        {#each area.items as item}
+          <figure class="flex flex-col items-center justify-center w-28 h-36 p-4 sm:w-36 sm:h-44 lg:w-56">
+            <img class="block w-full h-full object-contain" src={item.icon} alt={item.name}>
+            <figcaption class="text-center font-bold pt-4">{item.name}</figcaption>
+          </figure>
+        {/each}
+      </div>
+    {/each}
   </div>
 </section>
-
-<style lang="postcss">
-  img {
-    flex: 1 0 100%;
-    display: block;
-    max-width: 5rem;
-    max-height: 5rem;
-  }
-</style>

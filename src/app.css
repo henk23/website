@@ -28,7 +28,7 @@
   }
 
   body {
-    background-color: #282e33;
+    @apply bg-grey-950 text-white;
   }
 
   svg {
@@ -41,5 +41,11 @@
 
   .header-link {
     @apply transition-all duration-200 hover:text-orange-500;
+  }
+
+  .text-gradient {
+    background: linear-gradient(to bottom right, #ff6e7f, #bfe9ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

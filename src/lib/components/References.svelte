@@ -21,6 +21,8 @@
               class="w-full shadow-2xl"
               src="/img/projects/{project.image}"
               alt={project.title + ' Screenshot'}
+              width="720"
+              height="480"
             >
           </a>
           <div class="w-1/3 text-xl html-copy">

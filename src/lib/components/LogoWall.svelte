@@ -37,6 +37,8 @@
     logo_agiplan,
     logo_studio_buehne,
   ];
+
+  // TODO: Get width and height of svgs
 </script>
 
 <section id="logo-wall" class="bg-grey-100 text-grey-900">

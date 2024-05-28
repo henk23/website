@@ -79,6 +79,8 @@
     { title: 'Server', items: server },
     { title: 'Tools', items: tools },
   ];
+
+  // TODO: Get width and height of svgs
 </script>
 
 <section id="tools">

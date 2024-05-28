@@ -1,0 +1,20 @@
+{
+  "title": "Fressnapf",
+  "image": "fressnapf.jpg",
+  "link": "https://fressnapf.de/",
+  "description": "Beim Tiernahrungshändler Fressnapf durfte ich das Team beim Relaunch ihres Onlineshops im Frontend unterstützen.",
+  "details": [
+    {
+      "key": "Klient",
+      "value": "<a href=\"https://fressnapf.de/\" target=\"_blank\" rel=\"noreferrer\">Fressnapf Tiernahrungs GmbH</a>"
+    },
+    {
+      "key": "Datum",
+      "value": "2020 - 2023"
+    },
+    {
+      "key": "Leistung",
+      "value": "Unterstützung im Frontend des Onlineshops, Nuxt.js, Vue.js, Wordpress"
+    }
+  ]
+}

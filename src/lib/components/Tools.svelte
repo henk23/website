@@ -82,7 +82,7 @@
 </script>
 
 <section id="tools">
-  <div class="container py-8 px-6">
+  <div class="container py-8 px-4">
     <h2 class="text-3xl text-white font-bold sm:text-4xl lg:text-5xl lg:mb-16">
       Diese Tools und Technologien setze ich ein.
     </h2>

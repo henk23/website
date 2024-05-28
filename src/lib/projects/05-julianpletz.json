@@ -1,0 +1,20 @@
+{
+  "title": "Julian Pletz",
+  "image": "julianpletz.jpg",
+  "link": "https://julianpletz.de",
+  "description": "Für die Webseite des Wiesbadener Designers Julian Pletz habe ich einige kleine Features umgesetzt und Bugs im Frontend behoben. Julian ist außerdem ein sehr angenehmer Kollege, mit dem ich schon öfter zusammenarbeiten durfte.",
+  "details": [
+    {
+      "key": "Klient",
+      "value": "<a href=\"https://julianpletz.de\" target=\"_blank\" rel=\"noreferrer\">Julian Pletz</a>"
+    },
+    {
+      "key": "Datum",
+      "value": "Dezember 2017"
+    },
+    {
+      "key": "Leistung",
+      "value": "Unterstützung im Frontend"
+    }
+  ]
+}

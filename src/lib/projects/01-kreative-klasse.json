@@ -1,0 +1,20 @@
+{
+  "title": "Kreative Klasse",
+  "image": "kreative-klasse.jpg",
+  "link": "https://kreative-klasse.agiplan.de/",
+  "description": "Das Mülheimer Beratungs- und Planungsunternehmen agiplan GmbH beauftragte mich mit der Umsetzung einer <a href=\"https://kreative-klasse.agiplan.de/\" target=\"_blank\" rel=\"noreferrer\">Microsite</a> zu verschiedenen Standort-Indizes in Deutschland. AngularJS, jQuery, Highcharts sowie die Plugins Chosen und Tooltipster arbeiten hier zusammen, um dem Benutzer die Bedienung möglichst leicht und attraktiv zu machen.",
+  "details": [
+    {
+      "key": "Klient",
+      "value": "<a href=\"//www.agiplan.de\" title=\"Website der Agiplan GmbH\" target=\"_blank\" rel=\"noreferrer\">Agiplan GmbH</a>"
+    },
+    {
+      "key": "Datum",
+      "value": "November 2015"
+    },
+    {
+      "key": "Leistung",
+      "value": "AngularJS, jQuery, Highcharts, mit den Plugins Chosen und Tooltipster"
+    }
+  ]
+}

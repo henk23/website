@@ -40,7 +40,7 @@
 </script>
 
 <section id="logo-wall" class="bg-grey-100 text-grey-900">
-  <div class="container py-8 px-6">
+  <div class="container py-8 px-4">
     <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
       Mit diesen Marken durfte ich bereits zusammenarbeiten.
     </h2>

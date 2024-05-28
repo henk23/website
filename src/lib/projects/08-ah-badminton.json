@@ -1,0 +1,20 @@
+{
+  "title": "AH Badmintoncamps",
+  "image": "ah-badminton.jpg",
+  "link": "https://ah-badmintoncamps.de",
+  "description": "Zusammen mit dem Designer Julian Pletz habe ich die Webseite für die Badminton-Nationalspieler Andreas Heinz und Annika Horbach umgesetzt. Zusätzlich zu den Infos zu Camps und Trainern gibt es ein Buchungssystem, in dem Teilnehmer sich direkt zu den Camps anmelden können, inklusive Bezahlfunktion.",
+  "details": [
+    {
+      "key": "Klient",
+      "value": "<a href=\"https://julianpletz.de\" target=\"_blank\" rel=\"noreferrer\">Julian Pletz</a>"
+    },
+    {
+      "key": "Datum",
+      "value": "Januar 2018"
+    },
+    {
+      "key": "Leistung",
+      "value": "Umsetzung in Wordpress mit Buchungsfunktion, HTML, CSS & JavaScript"
+    }
+  ]
+}

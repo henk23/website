@@ -49,4 +49,8 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .html-copy a {
+    text-decoration: underline;
+  }
 }

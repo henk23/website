@@ -41,7 +41,9 @@
 
 <section class="bg-grey-100">
   <div class="container py-8 px-6">
-    <h2 class="text-3xl text-grey-900 font-bold sm:text-4xl lg:text-5xl">Mit diesen Marken durfte ich bereits zusammenarbeiten</h2>
+    <h2 class="text-3xl text-grey-900 font-bold sm:text-4xl lg:text-5xl">
+      Mit diesen Marken durfte ich bereits zusammenarbeiten.
+    </h2>
 
     <div class="grid gap-8 grid-cols-2 py-8 sm:grid-cols-3 sm:gap-16 sm:py-16 lg:grid-cols-4 lg:gap-16 lg:py-20">
       {#each logos as logo}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 110" width="128" height="110">
+  <defs>
+    <style>
+      .cls-1{fill:#42b883}.cls-2{fill:#35495e}
+    </style>
+  </defs>
+  <path d="M78.8 0 64 25.4 49.2 0H0l64 110L128 0H78.8Z" class="cls-1"/>
+  <path d="M78.8 0 64 25.4 49.2 0H25.6L64 66l38.4-66H78.8Z" class="cls-2"/>
+</svg>

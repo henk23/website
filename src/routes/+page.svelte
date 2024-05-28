@@ -1,6 +1,7 @@
 <script>
   import heikoPhoto from '$lib/assets/heiko-salmon300.jpg';
   import LogoWall from '$lib/components/LogoWall.svelte';
+  import Technologies from '$lib/components/Technologies.svelte';
 </script>
 
 <main class="text-white">
@@ -17,6 +18,8 @@
   </section>
 
   <LogoWall/>
+
+  <Technologies/>
 </main>
 
 <style lang="postcss">

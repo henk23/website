@@ -83,7 +83,7 @@
 
 <section id="tools">
   <div class="container py-8 px-6">
-    <h2 class="text-3xl text-white font-bold sm:text-4xl lg:text-5xl">
+    <h2 class="text-3xl text-white font-bold sm:text-4xl lg:text-5xl lg:mb-16">
       Diese Tools und Technologien setze ich ein.
     </h2>
 
@@ -94,9 +94,9 @@
 
       <div class="flex flex-wrap items-center justify-center mb-8">
         {#each area.items as item}
-          <figure class="flex flex-col items-center justify-center w-28 h-36 p-4 sm:w-36 sm:h-44 lg:w-56">
+          <figure class="flex flex-col items-center justify-center w-28 h-36 p-4 sm:w-36 sm:h-44 lg:w-56 lg:p-8">
             <img class="block w-full h-full object-contain" src={item.icon} alt={item.name}>
-            <figcaption class="text-center font-bold pt-4">{item.name}</figcaption>
+            <figcaption class="text-center font-bold pt-4 lg:pt-8">{item.name}</figcaption>
           </figure>
         {/each}
       </div>

@@ -23,6 +23,7 @@
               alt={project.title + ' Screenshot'}
               width="720"
               height="480"
+              loading="lazy"
             >
           </a>
           <div class="w-1/3 text-xl html-copy">

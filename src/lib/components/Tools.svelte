@@ -30,45 +30,45 @@
   import logo_docker from '$lib/assets/tools/docker.svg';
 
   const standards = [
-    { name: 'HTML5', icon: logo_html5 },
-    { name: 'CSS3', icon: logo_css3 },
-    { name: 'JavaScript', icon: logo_javascript },
-    { name: 'Responsive', icon: logo_responsive },
+    { name: 'HTML5', icon: logo_html5, width: '512', height: '512' },
+    { name: 'CSS3', icon: logo_css3, width: '290.19', height: '409.6' },
+    { name: 'JavaScript', icon: logo_javascript, width: '630', height: '630' },
+    { name: 'Responsive', icon: logo_responsive, width: '512', height: '512' },
   ];
 
   const frontend = [
-    { name: 'Svelte / SvelteKit', icon: logo_svelte },
-    { name: 'Vue.js', icon: logo_vue },
-    { name: 'Nuxt', icon: logo_nuxt },
-    { name: 'Tailwind CSS', icon: logo_tailwind },
+    { name: 'Svelte / SvelteKit', icon: logo_svelte, width: '94', height: '113' },
+    { name: 'Vue.js', icon: logo_vue, width: '128', height: '110' },
+    { name: 'Nuxt', icon: logo_nuxt, width: '800', height: '200' },
+    { name: 'Tailwind CSS', icon: logo_tailwind, width: '248', height: '31' },
   ];
 
   const backend = [
-    { name: 'Node.js / Express', icon: logo_nodejs },
-    { name: 'PHP', icon: logo_php },
-    { name: 'Laravel', icon: logo_laravel },
-    { name: 'WordPress', icon: logo_wordpress },
+    { name: 'Node.js / Express', icon: logo_nodejs, width: '267', height: '80' },
+    { name: 'PHP', icon: logo_php, width: '100', height: '50' },
+    { name: 'Laravel', icon: logo_laravel, width: '50', height: '52' },
+    { name: 'WordPress', icon: logo_wordpress, width: '28', height: '28' },
   ];
 
   const database = [
-    { name: 'MySQL', icon: logo_mysql },
-    { name: 'MariaDB', icon: logo_mariadb },
-    { name: 'PostgreSQL', icon: logo_postgresql },
-    { name: 'SQLite', icon: logo_sqlite },
+    { name: 'MySQL', icon: logo_mysql, width: '389.8', height: '201.3' },
+    { name: 'MariaDB', icon: logo_mariadb, width: '789.1', height: '195.64' },
+    { name: 'PostgreSQL', icon: logo_postgresql, width: '431.96', height: '445.34' },
+    { name: 'SQLite', icon: logo_sqlite, width: '361.84', height: '160.59' },
   ];
 
   const server = [
-    { name: 'Ubuntu', icon: logo_ubuntu },
-    { name: 'Caddy', icon: logo_caddy },
-    { name: 'Nginx', icon: logo_nginx },
-    { name: 'Apache', icon: logo_apache },
+    { name: 'Ubuntu', icon: logo_ubuntu, width: '254.06', height: '400' },
+    { name: 'Caddy', icon: logo_caddy, width: '1859.13', height: '471.05' },
+    { name: 'Nginx', icon: logo_nginx, width: '939.45', height: '196.91' },
+    { name: 'Apache', icon: logo_apache, width: '868.34', height: '349.9' },
   ];
 
   const tools = [
-    { name: 'Vite', icon: logo_vite },
-    { name: 'SASS', icon: logo_sass },
-    { name: 'Git', icon: logo_git },
-    { name: 'Docker', icon: logo_docker },
+    { name: 'Vite', icon: logo_vite, width: '410', height: '404' },
+    { name: 'SASS', icon: logo_sass, width: '547.48', height: '410.58' },
+    { name: 'Git', icon: logo_git, width: '92pt', height: '92pt' },
+    { name: 'Docker', icon: logo_docker, width: '2333.95', height: '530.79' },
   ];
 
   const areas = [
@@ -79,8 +79,6 @@
     { title: 'Server', items: server },
     { title: 'Tools', items: tools },
   ];
-
-  // TODO: Get width and height of svgs
 </script>
 
 <section id="tools">
@@ -97,7 +95,14 @@
       <div class="flex flex-wrap items-center justify-center mb-8">
         {#each area.items as item}
           <figure class="flex flex-col items-center justify-center w-28 h-36 p-4 sm:w-36 sm:h-44 lg:w-56 lg:p-8">
-            <img class="block w-full h-full object-contain" src={item.icon} alt={item.name}>
+            <img
+              class="block w-full h-full object-contain"
+              src={item.icon}
+              alt={`${item.name} Logo`}
+              width={item.width}
+              height={item.height}
+              loading="lazy"
+            >
             <figcaption class="text-center font-bold pt-4 lg:pt-8">{item.name}</figcaption>
           </figure>
         {/each}

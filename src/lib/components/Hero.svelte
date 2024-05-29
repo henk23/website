@@ -17,6 +17,6 @@
     </div>
   </div>
   <div class="rounded-full w-72 h-72 overflow-hidden">
-    <img src={heikoPhoto} alt="Foto von Heiko">
+    <img src={heikoPhoto} alt="Foto von Heiko" width="300" height="300" loading="eager">
   </div>
 </section>

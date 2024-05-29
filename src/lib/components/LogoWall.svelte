@@ -17,28 +17,26 @@
   import logo_studio_buehne from '$lib/assets/logo-wall/logo-studio-buehne.svg';
 
   const logos = [
-    logo_fressnapf,
-    logo_medion,
-    logo_aldi_talk,
-    logo_koch_essen,
+    { icon: logo_fressnapf, name: 'Fressnapf', width: '250', height: '39.9' },
+    { icon: logo_medion, name: 'Medion', width: '206.62', height: '40.76' },
+    { icon: logo_aldi_talk, name: 'Aldi Talk', width: '168', height: '51.65' },
+    { icon: logo_koch_essen, name: 'Koch Essen', width: '256', height: '46.18' },
 
-    logo_makita,
-    logo_primagas,
-    logo_metro,
-    logo_kinderhut,
+    { icon: logo_makita, name: 'Makita', width: '204.93', height: '66.05' },
+    { icon: logo_primagas, name: 'Primagas', width: '209', height: '29.97' },
+    { icon: logo_metro, name: 'Metro', width: '200', height: '53.61' },
+    { icon: logo_kinderhut, name: 'Kinderhut', width: '189.83', height: '73.63' },
 
-    logo_hmmh,
-    logo_gerry_weber,
-    logo_schaeffler,
-    logo_hessnatur,
+    { icon: logo_hmmh, name: 'hmmh', width: '240', height: '72' },
+    { icon: logo_gerry_weber, name: 'Gerry Weber', width: '272.08', height: '24.19' },
+    { icon: logo_schaeffler, name: 'Schaeffler', width: '228', height: '25.88' },
+    { icon: logo_hessnatur, name: 'Hessnatur', width: '220', height: '53.01' },
 
-    logo_carstens_stiftung,
-    logo_correctiv,
-    logo_agiplan,
-    logo_studio_buehne,
+    { icon: logo_carstens_stiftung, name: 'Carstens Stiftung', width: '140', height: '140' },
+    { icon: logo_correctiv, name: 'Correctiv', width: '176', height: '58.6' },
+    { icon: logo_agiplan, name: 'Agiplan', width: '177.57', height: '59.18' },
+    { icon: logo_studio_buehne, name: 'Studio Buehne', width: '132', height: '106.54' },
   ];
-
-  // TODO: Get width and height of svgs
 </script>
 
 <section id="logo-wall" class="bg-grey-100 text-grey-900">
@@ -50,7 +48,13 @@
     <div class="grid gap-8 grid-cols-2 py-8 sm:grid-cols-3 sm:gap-16 sm:py-16 lg:grid-cols-4 lg:gap-16 lg:py-20">
       {#each logos as logo}
         <div class="logo flex items-center justify-center min-h-24">
-          <img src={logo} alt="Logo">
+          <img
+            src={logo.icon}
+            alt={`${logo.name} Logo`}
+            width={logo.width}
+            height={logo.height}
+            loading="lazy"
+          >
         </div>
       {/each}
     </div>

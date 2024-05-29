@@ -1,6 +1,8 @@
 {
   "title": "CAM-Quest",
   "image": "cam-quest.webp",
+  "image_width": "1200",
+  "image_height": "800",
   "link": "https://www.cam-quest.org/",
   "description": "Für die Carstens-Stiftung habe ich das Portal CAM-Quest umgesetzt, das als Schnellsuche für klinische Forschungsarbeiten zu ausgewählten Therapien in Verbindung zu den meist verbreiteten Erkrankungen dient.",
   "details": [

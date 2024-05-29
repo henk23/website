@@ -1,6 +1,8 @@
 {
   "title": "Studio-Bühne Essen",
   "image": "studio-buehne.webp",
+  "image_width": "1200",
+  "image_height": "800",
   "link": "https://www.studio-buehne-essen.de/",
   "description": "Die Studio-Bühne Essen beauftragte mich mit der Programmierung ihrer neuen Web-Präsenz. Das Design lieferte <a href=\"https://www.buerobayer.de/\" title=\"Gestaltung und Kommunikation, Dortmund\" target=\"_blank\" rel=\"noreferrer\">Alexander Bayer</a>. Die Wordpress-Installation wurde hier durch viele Zusatzfunktionen (z.B. Kartenanfrage) und eigene Plugins erweitert.",
   "details": [

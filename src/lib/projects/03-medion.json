@@ -1,6 +1,8 @@
 {
   "title": "Medion",
   "image": "medion.webp",
+  "image_width": "1200",
+  "image_height": "800",
   "link": "https://www.medion.com/",
   "description": "Für den Essener Elektronikhersteller MEDION unterstützte ich das Onlineshop-Team bei Frontend-Aufgaben.",
   "details": [

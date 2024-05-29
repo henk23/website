@@ -21,8 +21,8 @@
               class="w-full shadow-lg lg:shadow-2xl"
               src="/img/projects/{project.image}"
               alt={project.title + ' Screenshot'}
-              width="720"
-              height="480"
+              width={project.image_width}
+              height={project.image_height}
               loading="lazy"
             >
           </a>

@@ -1,6 +1,8 @@
 {
   "title": "Fressnapf",
   "image": "fressnapf.webp",
+  "image_width": "1200",
+  "image_height": "800",
   "link": "https://fressnapf.de/",
   "description": "Beim Tiernahrungs&shy;händler Fressnapf durfte ich das Team beim Relaunch ihres Onlineshops im Frontend unterstützen.",
   "details": [

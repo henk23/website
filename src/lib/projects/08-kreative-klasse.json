@@ -1,6 +1,8 @@
 {
   "title": "Kreative Klasse",
   "image": "kreative-klasse.webp",
+  "image_width": "729",
+  "image_height": "486",
   "link": "https://www.agiplanpublic.de/",
   "description": "Das Mülheimer Beratungs- und Planungsunternehmen agiplan GmbH beauftragte mich mit der Umsetzung einer Microsite zu verschiedenen Standort-Indizes in Deutschland. AngularJS, jQuery, Highcharts sowie die Plugins Chosen und Tooltipster arbeiten hier zusammen, um den Benutzer:innen die Bedienung möglichst leicht und attraktiv zu machen.",
   "details": [

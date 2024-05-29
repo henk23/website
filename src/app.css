@@ -26,6 +26,7 @@
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
   }
 
   body {

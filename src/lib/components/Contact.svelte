@@ -5,7 +5,7 @@
 
 <section id="kontakt">
   <div class="container py-8 px-4">
-    <h2 class="text-3xl font-bold mb-8 sm:text-4xl lg:text-5xl lg:mb-16">
+    <h2 class="section-header">
       Kontakt
     </h2>
 

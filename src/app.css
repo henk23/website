@@ -53,4 +53,8 @@
   .html-copy a {
     text-decoration: underline;
   }
+
+  .section-header {
+    @apply text-3xl font-bold mb-8 sm:text-4xl lg:text-5xl lg:mb-16 lg:mt-4;
+  }
 }

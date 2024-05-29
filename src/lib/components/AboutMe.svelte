@@ -1,6 +1,6 @@
 <section id="ueber-mich" class="bg-grey-100 text-grey-900">
   <div class="container py-8 px-4 max-w-prose">
-    <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl lg:mb-16">
+    <h2 class="section-header">
       Über mich
     </h2>
 

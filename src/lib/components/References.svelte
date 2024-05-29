@@ -4,8 +4,8 @@
 
 <section id="referenzen">
   <div class="container py-8 px-4">
-    <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl lg:mb-16">
-      Eine kleine Auswahl meiner bisherigen Projekte
+    <h2 class="section-header">
+      Eine Auswahl meiner bisherigen Projekte
     </h2>
   </div>
 

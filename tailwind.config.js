@@ -17,6 +17,8 @@ export default {
         'sans': ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        pink: '#FB6274',
+        lightblue: '#5CC9FF',
         'grey': {
           '50': '#f4f6f7',
           '100': '#e3e8ea',
@@ -29,19 +31,6 @@ export default {
           '800': '#3e474c',
           '900': '#373d42',
           '950': '#282e33',
-        },
-        'orange': {
-          '50': '#fffbea',
-          '100': '#fff4c5',
-          '200': '#ffe787',
-          '300': '#ffd548',
-          '400': '#ffc11e',
-          '500': '#fca310',
-          '600': '#df7600',
-          '700': '#b95104',
-          '800': '#963e0a',
-          '900': '#7b330c',
-          '950': '#471901',
         },
       },
     },

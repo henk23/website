@@ -19,7 +19,7 @@
           <a href={project.link} target="_blank" class="block mb-6 md:w-2/3 {idx % 2 !== 0 ? 'order-1' : ''}">
             <img
               class="w-full shadow-lg lg:shadow-2xl"
-              src="/img/projects/{project.image}"
+              src="/img/projects/{project.image}?v=1"
               alt={project.title + ' Screenshot'}
               width={project.image_width}
               height={project.image_height}

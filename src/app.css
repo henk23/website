@@ -42,11 +42,18 @@
 @layer components {
 
   .header-link {
-    @apply transition-all duration-200 hover:text-orange-500;
+    @apply transition-all duration-200;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(to right, theme('colors.pink'), theme('colors.lightblue'));
+    background-clip: text;
+  }
+
+  .header-link:hover, .header-link:active, .header-link:focus {
+    color: rgba(255, 255, 255, 0);
   }
 
   .text-gradient {
-    background: linear-gradient(to bottom right, #ff6e7f, #bfe9ff);
+    background: linear-gradient(to bottom right, theme('colors.pink'), theme('colors.lightblue'));
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }

@@ -5,16 +5,16 @@
   "description": "Für die Kommunikationsagentur Koch Essen unterstütze ich das Team bei der Realisation von unterschiedlichsten Web-Projekten. Aktuell durfte ich den Relaunch der Webseite begleiten.",
   "details": [
     {
-      "key": "Klient",
+      "key": "Auftraggeberin",
       "value": "<a href=\"https://koch-essen.de/\" target=\"_blank\" rel=\"noreferrer\">KOCH ESSEN Kommunikation + Design GmbH</a>"
     },
     {
-      "key": "Datum",
+      "key": "Zeitraum",
       "value": "seit 2019"
     },
     {
       "key": "Leistung",
-      "value": "Unterstützung bei Websites und Webapps. Full-Stack Backend und Frontend, Svelte.js, Tailwind.css"
+      "value": "Unterstützung bei Websites und Webapps. Full Stack Backend und Frontend, Svelte.js, Tailwind.css"
     }
   ]
 }

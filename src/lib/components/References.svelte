@@ -32,7 +32,7 @@
             </p>
             {#each project.details as detail}
               <p class="pb-4">
-                <strong>{detail.key}: </strong> {@html detail.value}
+                <strong>{detail.key}</strong><br>{@html detail.value}
               </p>
             {/each}
             <p></p>

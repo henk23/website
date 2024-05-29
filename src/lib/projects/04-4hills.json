@@ -5,16 +5,16 @@
   "description": "Die Kölner Agentur hadz UG habe ich im Frontend bei der Umsetzung der neuen Vierschanzentournee-Webseite unterstützt. Auf Basis des Content-Management-Systems Pimcore habe ich das vorgegebene Design in HTML und CSS umgesetzt.",
   "details": [
     {
-      "key": "Klient",
+      "key": "Auftraggeberin",
       "value": "hadz UG"
     },
     {
-      "key": "Datum",
+      "key": "Zeitraum",
       "value": "September 2016"
     },
     {
       "key": "Leistung",
-      "value": "Umsetzung des fertigen Designs, HTML, CSS & JavaScript"
+      "value": "Umsetzung des Designs, HTML, CSS & JavaScript"
     }
   ]
 }

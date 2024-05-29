@@ -1,16 +1,16 @@
 {
   "title": "CAM-Quest",
   "image": "cam-quest.webp",
-  "link": "https://www.cam-quest.org/de",
+  "link": "https://www.cam-quest.org/",
   "description": "Für die Carstens-Stiftung habe ich das Portal CAM-Quest umgesetzt, das als Schnellsuche für klinische Forschungsarbeiten zu ausgewählten Therapien in Verbindung zu den meist verbreiteten Erkrankungen dient.",
   "details": [
     {
-      "key": "Klient",
+      "key": "Auftraggeberin",
       "value": "<a href=\"https://www.carstens-stiftung.de/\" target=\"_blank\" rel=\"noreferrer\">Karl und Veronica Carstens-Stiftung</a>"
     },
     {
-      "key": "Datum",
-      "value": "September 2018"
+      "key": "Zeitraum",
+      "value": "2017 - 2018"
     },
     {
       "key": "Leistung",

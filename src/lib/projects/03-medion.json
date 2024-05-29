@@ -1,12 +1,12 @@
 {
   "title": "Medion",
   "image": "medion.webp",
-  "link": "https://www.medion.com/de/shop/",
-  "description": "Für den Essener Elektronikhersteller MEDION unterstütze ich das Onlineshop-Team bei Frontend-Aufgaben.",
+  "link": "https://www.medion.com/",
+  "description": "Für den Essener Elektronikhersteller MEDION unterstützte ich das Onlineshop-Team bei Frontend-Aufgaben.",
   "details": [
     {
-      "key": "Klient",
-      "value": "<a href=\"https://www.medion.com/de/shop/\" target=\"_blank\" rel=\"noreferrer\">Medion AG</a>"
+      "key": "Auftraggeberin",
+      "value": "<a href=\"https://www.medion.com/\" target=\"_blank\" rel=\"noreferrer\">Medion AG</a>"
     },
     {
       "key": "Zeitraum",

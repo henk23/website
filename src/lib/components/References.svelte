@@ -12,7 +12,7 @@
   {#each projects as project, idx}
     <div class="{idx % 2 !== 0 ? 'bg-grey-100 text-grey-900' : ''}">
       <div class="container py-8 px-4 lg:py-12">
-        <h3 class="text-xl font-bold mb-6 sm:text-2xl lg:text-4xl">
+        <h3 class="text-2xl font-bold mb-6 lg:text-4xl">
           {project.title}
         </h3>
         <div class="lg:flex lg:gap-6">

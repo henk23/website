@@ -11,14 +11,14 @@
 
   {#each projects as project, idx}
     <div class="{idx % 2 !== 0 ? 'bg-grey-100 text-grey-900' : ''}">
-      <div class="container py-8 px-4 lg:py-16">
-        <h3 class="text-xl font-bold pb-6 sm:text-2xl lg:text-4xl">
+      <div class="container py-8 px-4 lg:py-12">
+        <h3 class="text-xl font-bold mb-6 sm:text-2xl lg:text-4xl">
           {project.title}
         </h3>
-        <div class="flex gap-6">
-          <a href={project.link} target="_blank" class="block w-2/3 {idx % 2 !== 0 ? 'order-1' : ''}">
+        <div class="lg:flex lg:gap-6">
+          <a href={project.link} target="_blank" class="block mb-6 md:w-2/3 {idx % 2 !== 0 ? 'order-1' : ''}">
             <img
-              class="w-full shadow-2xl"
+              class="w-full shadow-lg lg:shadow-2xl"
               src="/img/projects/{project.image}"
               alt={project.title + ' Screenshot'}
               width="720"
@@ -26,7 +26,7 @@
               loading="lazy"
             >
           </a>
-          <div class="w-1/3 text-xl html-copy">
+          <div class="lg:w-1/3 html-copy lg:text-lg xl:text-xl">
             <p class="pb-4">
               {@html project.description}
             </p>

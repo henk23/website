@@ -1,10 +1,10 @@
 <script>
   import '../app.css';
-  import hsLogo from '$lib/assets/hs-logo.svg';
+  import favicon from '$lib/assets/favicon.svg';
 </script>
 
 <svelte:head>
-  <link rel="icon" href={hsLogo} />
+  <link rel="icon" href={favicon} />
 </svelte:head>
 
 <slot/>

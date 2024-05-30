@@ -1,0 +1,54 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+<FilesMatch ".(css|js|webp|svg|json|woff2)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Check if browser accepts Brotli encoding
+    RewriteCond %{HTTP:Accept-Encoding} br
+    # Check if .br file exists
+    RewriteCond %{REQUEST_FILENAME}.br -f
+    # Serve .br file
+    RewriteRule ^(.*)$ $1.br [QSA]
+
+    # Check if browser accepts Gzip encoding
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    # Check if .gz file exists
+    RewriteCond %{REQUEST_FILENAME}.gz -f
+    # Serve .gz file
+    RewriteRule ^(.*)$ $1.gz [QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Set the Content-Encoding header for .br files
+    <FilesMatch "\.(css|js|webp|svg|json|woff2)\.br$">
+        Header set Content-Encoding br
+        Header set Cache-Control "max-age=31536000, public"
+        # Ensure the correct MIME type is sent
+        # Header set Content-Type "text/html"
+    </FilesMatch>
+
+    # Set the Content-Encoding header for .gz files
+    <FilesMatch "\.(css|js|webp|svg|json|woff2)\.gz$">
+        Header set Content-Encoding gzip
+        Header set Cache-Control "max-age=31536000, public"
+        # Ensure the correct MIME type is sent
+        # Header set Content-Type "text/html"
+    </FilesMatch>
+</IfModule>
+
+# Disable ETag for performance improvement
+FileETag None
+
+<IfModule mod_mime.c>
+    # Add encoding types
+    AddEncoding br .br
+    AddEncoding gzip .gz
+</IfModule>
+

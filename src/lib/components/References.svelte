@@ -5,7 +5,7 @@
 <section id="referenzen">
   <div class="container py-8 px-4">
     <h2 class="section-header">
-      Eine Auswahl meiner bisherigen Projekte
+      Gelungene <span class="text-gradient">Projekte</span>
     </h2>
   </div>
 
@@ -18,7 +18,7 @@
         <div class="lg:flex lg:gap-6">
           <a href={project.link} target="_blank" class="block mb-6 md:w-2/3 {idx % 2 !== 0 ? 'order-1' : ''}">
             <img
-              class="w-full shadow-lg lg:shadow-2xl"
+              class="w-full shadow-lg lg:shadow-2xl transition duration-500 hover:scale-[102%]"
               src="/img/projects/{project.image}?v=1"
               alt={project.title + ' Screenshot'}
               width={project.image_width}

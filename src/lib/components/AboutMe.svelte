@@ -1,7 +1,7 @@
 <section id="ueber-mich" class="bg-grey-100 text-grey-900">
   <div class="container py-8 px-4 max-w-prose">
     <h2 class="section-header">
-      Über mich
+      Ein paar <span class="text-gradient">Worte</span> zu mir
     </h2>
 
     <p class="text-base sm:text-xl py-4">

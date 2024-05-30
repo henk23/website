@@ -2,6 +2,10 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
+  safelist: [
+    'fade-in',
+    'is-faded-out',
+  ],
   theme: {
     container: {
       center: true,

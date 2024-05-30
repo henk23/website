@@ -2,9 +2,9 @@
   import HSLogo from '$lib/assets/hs-logo.svg?raw';
 </script>
 
-<nav class="fixed w-full bg-grey-950/70 backdrop-blur-md text-white font-bold px-4 py-2 sm:py-4">
+<header class="fixed z-50 w-full bg-grey-950/70 backdrop-blur-md text-white font-bold px-4 py-2 sm:py-4">
   <div class="container">
-    <div class="flex items-center justify-between">
+    <nav class="flex items-center justify-between">
       <a href="/" class="block w-20 text-white" aria-label="Zurück nach oben">
         {@html HSLogo}
       </a>
@@ -13,6 +13,6 @@
         <li><a href="#ueber-mich" class="header-link">Über mich</a></li>
         <li><a href="#kontakt" class="header-link">Kontakt</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
-</nav>
+</header>

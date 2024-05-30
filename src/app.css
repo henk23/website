@@ -30,7 +30,7 @@
   }
 
   body {
-    @apply bg-grey-950 text-white;
+    @apply bg-grey-950 text-white tracking-tighter;
   }
 
   svg {
@@ -64,5 +64,14 @@
 
   .section-header {
     @apply text-3xl font-bold mb-8 sm:text-4xl lg:text-5xl lg:mb-16 lg:mt-4;
+  }
+
+  .fade-in {
+    transition: all 600ms ease-out;
+  }
+
+  .is-faded-out {
+    transform: scale(0);
+    opacity: 0;
   }
 }

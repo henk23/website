@@ -1,7 +1,7 @@
 <script>
   const currentYear = new Date().getFullYear();
 </script>
-<footer class="text-black p-4">
+<footer class="text-grey-950 p-4">
   <div class="container font-extrabold text-center">
     &copy; 2011-{currentYear} Heiko Salmon
   </div>

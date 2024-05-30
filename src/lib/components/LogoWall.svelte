@@ -1,4 +1,5 @@
 <script>
+  import { fadeIn } from '$lib/utils.js';
   import logo_agiplan from '$lib/assets/logo-wall/logo-agiplan.svg';
   import logo_aldi_talk from '$lib/assets/logo-wall/logo-aldi-talk.svg';
   import logo_carstens_stiftung from '$lib/assets/logo-wall/logo-carstens-stiftung.svg';
@@ -15,6 +16,7 @@
   import logo_primagas from '$lib/assets/logo-wall/logo-primagas.svg';
   import logo_schaeffler from '$lib/assets/logo-wall/logo-schaeffler.svg';
   import logo_studio_buehne from '$lib/assets/logo-wall/logo-studio-buehne.svg';
+
 
   const logos = [
     { icon: logo_fressnapf, name: 'Fressnapf', width: '250', height: '39.9' },
@@ -42,12 +44,12 @@
 <section id="logo-wall" class="bg-grey-100 text-grey-900">
   <div class="container py-8 px-4">
     <h2 class="section-header">
-      Mit diesen Marken durfte ich bereits zusammen&shy;arbeiten.
+      Erfolgreiche <span class="text-gradient">Kooperationen</span>
     </h2>
 
     <div class="grid gap-8 grid-cols-2 my-8 sm:grid-cols-3 sm:gap-16 sm:my-16 lg:grid-cols-4 lg:gap-16 lg:mt-24">
-      {#each logos as logo}
-        <div class="logo flex items-center justify-center min-h-24">
+      {#each logos as logo, idx}
+        <div class="logo flex items-center justify-center min-h-24" use:fadeIn>
           <img
             src={logo.icon}
             alt={`${logo.name} Logo`}

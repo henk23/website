@@ -1,4 +1,6 @@
 <script>
+  import { fadeIn } from '$lib/utils.js';
+
   import logo_html5 from '$lib/assets/tools/html5.svg';
   import logo_css3 from '$lib/assets/tools/css3.svg';
   import logo_javascript from '$lib/assets/tools/javascript.svg';
@@ -84,7 +86,7 @@
 <section id="tools">
   <div class="container py-8 px-4">
     <h2 class="section-header">
-      Diese Tools und Technologien setze ich ein.
+      Essenzielle <span class="text-gradient">Tools &amp; Technologien</span>
     </h2>
 
     {#each areas as area}
@@ -102,6 +104,7 @@
               width={item.width}
               height={item.height}
               loading="lazy"
+              use:fadeIn
             >
             <figcaption class="text-center font-bold pt-4 lg:pt-8">{item.name}</figcaption>
           </figure>

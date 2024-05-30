@@ -7,7 +7,7 @@
     <p class="text-base sm:text-xl py-4">
       Nach dem Studium der Medientechnik habe ich 2011 entschlossen, mich als Web Developer selbstständig zu machen.
       Seitdem habe ich eine breite Palette von Projekten realisiert, sowohl als Full-Stack-Entwickler bei kleineren
-      Aufträgen als auch als Frontend-Spezialist und Teamplayer in großen Projekten für diverse Agenturen.
+      Aufträgen als auch als Frontend-Spezialist und Teamplayer in großen Projekten für verschiedene Agenturen.
     </p>
 
     <p class="text-base sm:text-xl py-4">

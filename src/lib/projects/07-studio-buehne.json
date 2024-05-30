@@ -4,11 +4,11 @@
   "image_width": "1200",
   "image_height": "800",
   "link": "https://www.studio-buehne-essen.de/",
-  "description": "Die Studio-Bühne Essen beauftragte mich mit der Programmierung ihrer neuen Web-Präsenz. Das Design lieferte <a href=\"https://www.buerobayer.de/\" title=\"Gestaltung und Kommunikation, Dortmund\" target=\"_blank\" rel=\"noreferrer\">Alexander Bayer</a>. Die Wordpress-Installation wurde hier durch viele Zusatzfunktionen (zum Beispiel Kartenanfrage) und eigene Plugins erweitert.",
+  "description": "Die Studio-Bühne Essen beauftragte mich mit der Programmierung ihrer neuen Web-Präsenz. Das Design lieferte <a href=\"https://www.buerobayer.de/\" title=\"Gestaltung und Kommunikation, Dortmund\" target=\"_blank\" rel=\"noreferrer\">Alexander Bayer</a>. Die Wordpress-Installation wurde hier um viele Zusatzfunktionen (zum Beispiel einer Kartenanfrage) und eigene Plugins erweitert.",
   "details": [
     {
       "key": "Auftraggeberin",
-      "value": "<a href=\"https://www.studio-buehne-essen.de\" title=\"Webseite der Studio-Bühne Essen\" target=\"_blank\" rel=\"noreferrer\">Studio-Bühne Essen</a>"
+      "value": "<a href=\"https://www.studio-buehne-essen.de\" title=\"Website der Studio-Bühne Essen\" target=\"_blank\" rel=\"noreferrer\">Studio-Bühne Essen</a>"
     },
     {
       "key": "Datum",

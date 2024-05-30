@@ -86,7 +86,7 @@
 <section id="tools">
   <div class="container py-8 px-4">
     <h2 class="section-header">
-      Essenzielle <span class="text-gradient">Tools &amp; Technologien</span>
+      Moderne <span class="text-gradient">Tools &amp; Technologien</span>
     </h2>
 
     {#each areas as area}

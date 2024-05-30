@@ -96,7 +96,7 @@
 
       <div class="flex flex-wrap items-center justify-center mb-8">
         {#each area.items as item}
-          <figure class="flex flex-col items-center justify-center w-28 h-36 p-4 sm:w-36 sm:h-44 lg:w-56 lg:p-8">
+          <figure class="flex flex-col items-center justify-center w-36 h-36 p-4 sm:h-44 lg:w-56 lg:p-8">
             <img
               class="block w-full h-full object-contain"
               src={item.icon}
@@ -106,7 +106,9 @@
               loading="lazy"
               use:fadeIn
             >
-            <figcaption class="text-center font-bold pt-4 lg:pt-8">{item.name}</figcaption>
+            <figcaption class="text-center font-bold pt-4 whitespace-nowrap lg:pt-8">
+              {item.name}
+            </figcaption>
           </figure>
         {/each}
       </div>

@@ -4,14 +4,18 @@
   import logo_html5 from '$lib/assets/tools/html5.svg';
   import logo_css3 from '$lib/assets/tools/css3.svg';
   import logo_javascript from '$lib/assets/tools/javascript.svg';
+  import logo_typescript from '$lib/assets/tools/typescript.svg';
   import logo_responsive from '$lib/assets/tools/responsive.svg';
 
   import logo_svelte from '$lib/assets/tools/svelte.svg';
   import logo_vue from '$lib/assets/tools/vue.svg';
+  import logo_angular from '$lib/assets/tools/angular.svg';
   import logo_nuxt from '$lib/assets/tools/nuxt.svg';
   import logo_tailwind from '$lib/assets/tools/tailwind.svg';
 
   import logo_nodejs from '$lib/assets/tools/nodejs.svg';
+  import logo_directus from '$lib/assets/tools/directus.svg';
+  import logo_strapi from '$lib/assets/tools/strapi.svg';
   import logo_php from '$lib/assets/tools/php.svg';
   import logo_laravel from '$lib/assets/tools/laravel.svg';
   import logo_wordpress from '$lib/assets/tools/wordpress.svg';
@@ -20,6 +24,7 @@
   import logo_postgresql from '$lib/assets/tools/postgresql.svg';
   import logo_mariadb from '$lib/assets/tools/mariadb.svg';
   import logo_mysql from '$lib/assets/tools/mysql.svg';
+  import logo_redis from '$lib/assets/tools/redis.svg';
 
   import logo_ubuntu from '$lib/assets/tools/ubuntu.svg';
   import logo_caddy from '$lib/assets/tools/caddy.svg';
@@ -30,25 +35,34 @@
   import logo_sass from '$lib/assets/tools/sass.svg';
   import logo_git from '$lib/assets/tools/git.svg';
   import logo_docker from '$lib/assets/tools/docker.svg';
+  import logo_jira from '$lib/assets/tools/jira.svg';
 
   const standards = [
     { name: 'HTML5', icon: logo_html5, width: '512', height: '512' },
     { name: 'CSS3', icon: logo_css3, width: '290.19', height: '409.6' },
     { name: 'JavaScript', icon: logo_javascript, width: '630', height: '630' },
+    { name: 'TypeScript', icon: logo_typescript, width: '512', height: '512' },
     { name: 'Responsive', icon: logo_responsive, width: '512', height: '512' },
   ];
 
   const frontend = [
-    { name: 'Svelte / SvelteKit', icon: logo_svelte, width: '94', height: '113' },
+    { name: 'Svelte', icon: logo_svelte, width: '94', height: '113' },
     { name: 'Vue.js', icon: logo_vue, width: '128', height: '110' },
-    { name: 'Nuxt', icon: logo_nuxt, width: '800', height: '200' },
+    { name: 'Angular', icon: logo_angular, width: '223', height: '236' },
     { name: 'Tailwind CSS', icon: logo_tailwind, width: '248', height: '31' },
   ];
 
   const backend = [
+    { name: 'SvelteKit', icon: logo_svelte, width: '94', height: '113' },
+    { name: 'Nuxt', icon: logo_nuxt, width: '800', height: '200' },
     { name: 'Node.js / Express', icon: logo_nodejs, width: '267', height: '80' },
     { name: 'PHP', icon: logo_php, width: '100', height: '50' },
     { name: 'Laravel', icon: logo_laravel, width: '50', height: '52' },
+  ];
+
+  const cms = [
+    { name: 'Directus', icon: logo_directus, width: '1024', height: '1028' },
+    { name: 'Strapi', icon: logo_strapi, width: '600', height: '600' },
     { name: 'WordPress', icon: logo_wordpress, width: '28', height: '28' },
   ];
 
@@ -57,26 +71,29 @@
     { name: 'MariaDB', icon: logo_mariadb, width: '789.1', height: '195.64' },
     { name: 'PostgreSQL', icon: logo_postgresql, width: '431.96', height: '445.34' },
     { name: 'SQLite', icon: logo_sqlite, width: '361.84', height: '160.59' },
+    { name: 'Redis', icon: logo_redis, width: '146.41', height: '125.6' },
   ];
 
   const server = [
     { name: 'Ubuntu', icon: logo_ubuntu, width: '254.06', height: '400' },
     { name: 'Caddy', icon: logo_caddy, width: '1859.13', height: '471.05' },
     { name: 'Nginx', icon: logo_nginx, width: '939.45', height: '196.91' },
-    { name: 'Apache', icon: logo_apache, width: '868.34', height: '349.9' },
+    { name: 'Apache', icon: logo_apache, width: '867.34', height: '349.9' },
   ];
 
   const tools = [
     { name: 'Vite', icon: logo_vite, width: '410', height: '404' },
     { name: 'SASS', icon: logo_sass, width: '547.48', height: '410.58' },
+    { name: 'Docker', icon: logo_docker, width: '756.26', height: '596.9' },
     { name: 'Git', icon: logo_git, width: '92pt', height: '92pt' },
-    { name: 'Docker', icon: logo_docker, width: '2333.95', height: '530.79' },
+    { name: 'Jira', icon: logo_jira, width: '127.56', height: '131.89' },
   ];
 
   const areas = [
     { title: 'Standards', items: standards },
     { title: 'Frontend', items: frontend },
     { title: 'Backend', items: backend },
+    { title: 'CMS', items: cms },
     { title: 'Datenbanken', items: database },
     { title: 'Server', items: server },
     { title: 'Tools', items: tools },

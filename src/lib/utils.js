@@ -1,4 +1,6 @@
-const fadeInObserver = new IntersectionObserver(entries => {
+import { browser } from '$app/environment';
+
+const fadeInObserver = browser && new IntersectionObserver(entries => {
   entries.forEach(async entry => {
     if(entry.isIntersecting) {
       await delay(500);

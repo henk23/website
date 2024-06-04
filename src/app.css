@@ -44,7 +44,7 @@
   .header-link {
     @apply transition-all duration-200;
     color: rgba(255, 255, 255, 1);
-    background: linear-gradient(to right, theme('colors.pink'), theme('colors.lightblue'));
+    background: linear-gradient(to right, theme('colors.pink.light'), theme('colors.blue.light'));
     background-clip: text;
   }
 
@@ -53,7 +53,13 @@
   }
 
   .text-gradient {
-    background: linear-gradient(to bottom right, theme('colors.pink'), theme('colors.lightblue'));
+    background: linear-gradient(to bottom right, theme('colors.pink.light'), theme('colors.blue.light'));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-grey-100 .text-gradient, .bg-white .text-gradient {
+    background: linear-gradient(to bottom right, theme('colors.pink.dark'), theme('colors.blue.dark'));
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }

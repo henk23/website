@@ -10,6 +10,6 @@
 
 <style lang="postcss">
   footer {
-    background: linear-gradient(to right, theme('colors.pink') 0%, theme('colors.lightblue') 100%);
+    background: linear-gradient(to right, theme('colors.pink.light') 0%, theme('colors.blue.light') 100%);
   }
 </style>

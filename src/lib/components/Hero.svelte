@@ -9,9 +9,11 @@
     <img src={heikoPhoto} alt="Foto von Heiko" width="300" height="300" loading="eager">
   </div>
   <div class="font-bold">
-    <div class="text-5xl lg:text-6xl leading-none">Heiko Salmon</div>
+    <div class="text-5xl lg:text-6xl leading-none">
+      Heiko Salmon
+    </div>
 
-    <div class="text-3xl lg:text-4xl text-gradient leading-none text--500">
+    <div class="inline-block text-3xl lg:text-4xl text-gradient leading-none">
       Senior Full Stack<br>Web Developer
     </div>
 

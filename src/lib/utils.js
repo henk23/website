@@ -17,14 +17,3 @@ export function fadeIn(node) {
 export async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-export function formatDate(date) {
-  console.log('date', date);
-
-  if(date.indexOf('-') < 0) {
-    return date;
-  }
-
-  const split = date.split('-');
-  return split[1] + '/' + split[0];
-}

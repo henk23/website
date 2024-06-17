@@ -30,7 +30,7 @@
     background-position: calc(50% - 2rem) 0;
     background-image: url('/website-2024/src/lib/assets/hero.webp');
     background-size: cover;
-    max-width: 1312px;
+    max-width: 1600px;
     margin: 0 auto;
   }
 

@@ -5,7 +5,7 @@
   import githubLogo from '$lib/assets/github-logo.svg?raw';
 </script>
 
-<section id="kontakt">
+<section id="kontakt" class="bg-grey-950">
   <div class="container py-8 px-4">
     <h2 class="section-header">
       Kontakt

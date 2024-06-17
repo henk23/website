@@ -2,7 +2,7 @@
   export let projects = [];
 </script>
 
-<section id="referenzen">
+<section id="referenzen" class="bg-grey-950">
   <div class="container py-8 px-4">
     <h2 class="section-header">
       Gelungene <span class="text-gradient">Projekte</span>
@@ -10,7 +10,7 @@
   </div>
 
   {#each projects as project, idx}
-    <div class="{idx % 2 !== 0 ? 'bg-grey-100 text-grey-900' : ''}">
+    <div class="{idx % 2 !== 0 ? 'bg-grey-100 text-grey-900' : 'bg-grey-950'}">
       <div class="container py-8 px-4 lg:py-12">
         <h3 class="text-2xl font-bold mb-6 lg:text-4xl">
           {project.title}

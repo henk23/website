@@ -2,7 +2,7 @@
   import HSLogo from '$lib/assets/hs-logo.svg?raw';
 </script>
 
-<header class="fixed z-50 w-full bg-grey-950/70 backdrop-blur-md text-white font-bold px-4 py-2 sm:py-4">
+<header class="fixed top-0 z-50 w-full bg-grey-950/70 backdrop-blur-sm text-white font-bold px-4 py-2 sm:py-4">
   <div class="container">
     <nav class="flex items-center justify-between">
       <a href="/" class="block w-20 text-white" aria-label="Zurück nach oben">

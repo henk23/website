@@ -3,7 +3,7 @@ import { browser } from '$app/environment';
 const fadeInObserver = browser && new IntersectionObserver(entries => {
   entries.forEach(async entry => {
     if(entry.isIntersecting) {
-      await delay(500);
+      await delay(300);
       entry.target.classList.remove('is-faded-out');
     }
   });

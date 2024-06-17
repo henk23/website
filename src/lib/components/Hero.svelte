@@ -7,18 +7,18 @@
 </script>
 
 <section class="bg-hero px-4" style={heroStyle}>
-  <div class="container max-sm:max-w-[10rem] pt-8 pb-8 ml-0 text-white sm:pt-32 sm:pb-16 sm:mx-auto lg:py-44 lg:text-xl lg:flex lg:items-start lg:justify-start">
+  <div class="container max-sm:max-w-48 pt-8 pb-8 ml-0 text-white sm:pt-32 sm:pb-16 sm:mx-auto lg:py-44 lg:text-xl lg:flex lg:items-start lg:justify-start">
     <div class="font-bold">
       <div class="text-5xl lg:text-6xl leading-none">
         Heiko Salmon
       </div>
 
       <div class="inline-block text-3xl lg:text-4xl text-gradient leading-none">
-        Senior Full Stack<br>Web Developer
+        Senior <span class="whitespace-nowrap">Full Stack</span><br>Web Developer
       </div>
 
       <div class="text-2xl pt-8">
-        mit über {experienceYears} Jahren Erfahrung
+        mit über <span class="whitespace-nowrap">{experienceYears} Jahren</span> Erfahrung
       </div>
     </div>
   </div>
@@ -30,7 +30,7 @@
     background-position: calc(50% - 2rem) 0;
     background-image: url('/website-2024/src/lib/assets/hero.webp');
     background-size: cover;
-    max-width: 1600px;
+    max-width: 1312px;
     margin: 0 auto;
   }
 

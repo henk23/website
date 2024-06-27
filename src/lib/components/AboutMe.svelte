@@ -6,14 +6,14 @@
 
     <p class="text-base sm:text-xl py-4">
       Nach dem Studium der Medientechnik habe ich 2011 entschlossen, mich als Web Developer selbstständig zu machen.
-      Seitdem habe ich eine breite Palette von Projekten realisiert, sowohl als Full-Stack-Entwickler bei kleineren
+      Seitdem habe ich eine breite Palette an Projekten realisiert, sowohl als Full-Stack-Entwickler bei kleineren
       Aufträgen als auch als Frontend-Spezialist und Teamplayer in großen Projekten für verschiedene Agenturen.
     </p>
 
     <p class="text-base sm:text-xl py-4">
       Meine Leidenschaft liegt darin, ästhetisches Design mit moderner Technologie zu vereinen, um Nutzer:innen ein
-      positives und reibungsloses Erlebnis zu bieten. Ich glaube fest daran, dass gutes Design nicht nur schön aussehen,
-      sondern auch intuitiv und benutzerfreundlich sein muss.
+      positives und reibungsloses Erlebnis zu bieten. Ich glaube fest daran, dass gutes Design sowohl schön aussehen
+      als auch intuitiv und benutzer&shy;freundlich sein muss.
     </p>
 
     <p class="text-base sm:text-xl py-4">

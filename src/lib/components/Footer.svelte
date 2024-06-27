@@ -3,7 +3,7 @@
 </script>
 
 <footer class="text-grey-950 p-4">
-  <div class="container font-extrabold text-center">
+  <div class="container py-8 px-4 font-extrabold text-center">
     &copy; 2011-{currentYear} Heiko Salmon
   </div>
 </footer>

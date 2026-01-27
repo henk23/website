@@ -1,6 +1,120 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility header-link {
+  @apply transition-all duration-200;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(
+    to right,
+    var(--color-pink-light),
+    var(--color-blue-light)
+  );
+  background-clip: text;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  &:focus {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+@utility text-gradient {
+  background: linear-gradient(
+    to bottom right,
+    var(--color-pink-light),
+    var(--color-blue-light)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  .bg-grey-100 & {
+    background: linear-gradient(
+      to bottom right,
+      var(--color-pink-dark),
+      var(--color-blue-dark)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-white & {
+    background: linear-gradient(
+      to bottom right,
+      var(--color-pink-dark),
+      var(--color-blue-dark)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@utility bg-grey-100 {
+  & .text-gradient {
+    background: linear-gradient(
+      to bottom right,
+      var(--color-pink-dark),
+      var(--color-blue-dark)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@utility bg-white {
+  & .text-gradient {
+    background: linear-gradient(
+      to bottom right,
+      var(--color-pink-dark),
+      var(--color-blue-dark)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@utility html-copy {
+  & a {
+    text-decoration: underline;
+  }
+}
+
+@utility section-header {
+  @apply text-3xl font-bold mb-8 sm:text-4xl lg:text-5xl lg:mb-16 lg:mt-4;
+}
+
+@utility fade-in {
+  transition: all 600ms ease-out;
+}
+
+@utility is-faded-out {
+  transform: scale(0);
+  opacity: 0;
+}
 
 @layer base {
 
@@ -36,48 +150,5 @@
   svg {
     max-width: 100%;
     height: auto;
-  }
-}
-
-@layer components {
-
-  .header-link {
-    @apply transition-all duration-200;
-    color: rgba(255, 255, 255, 1);
-    background: linear-gradient(to right, theme('colors.pink.light'), theme('colors.blue.light'));
-    background-clip: text;
-  }
-
-  .header-link:hover, .header-link:active, .header-link:focus {
-    color: rgba(255, 255, 255, 0);
-  }
-
-  .text-gradient {
-    background: linear-gradient(to bottom right, theme('colors.pink.light'), theme('colors.blue.light'));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .bg-grey-100 .text-gradient, .bg-white .text-gradient {
-    background: linear-gradient(to bottom right, theme('colors.pink.dark'), theme('colors.blue.dark'));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .html-copy a {
-    text-decoration: underline;
-  }
-
-  .section-header {
-    @apply text-3xl font-bold mb-8 sm:text-4xl lg:text-5xl lg:mb-16 lg:mt-4;
-  }
-
-  .fade-in {
-    transition: all 600ms ease-out;
-  }
-
-  .is-faded-out {
-    transform: scale(0);
-    opacity: 0;
   }
 }

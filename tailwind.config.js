@@ -1,5 +1,3 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   safelist: [
@@ -42,11 +40,18 @@ export default {
       },
     },
     fontFamily: {
-      'sans': ['Montserrat', ...defaultTheme.fontFamily.sans],
+      'sans': [
+        'Montserrat',
+        'ui-sans-serif',
+        'system-ui',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
     },
-    extend: {
-
-    },
+    extend: {},
   },
   plugins: [],
 };

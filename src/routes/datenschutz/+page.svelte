@@ -178,6 +178,8 @@
 </section>
 
 <style>
+  @reference '../../app.css';
+
   h1 {
     @apply text-3xl font-bold my-2;
   }

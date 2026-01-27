@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<style lang="postcss">
+<style>
   a :global(svg) {
     max-width: 100%;
   }

@@ -177,7 +177,7 @@
   </div>
 </section>
 
-<style lang="postcss">
+<style>
   h1 {
     @apply text-3xl font-bold my-2;
   }

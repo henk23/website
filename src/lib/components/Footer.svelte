@@ -8,8 +8,8 @@
   </div>
 </footer>
 
-<style lang="postcss">
+<style>
   footer {
-    background: linear-gradient(to right, theme('colors.pink.light') 0%, theme('colors.blue.light') 100%);
+    background: linear-gradient(to right, var(--color-pink-light) 0%, var(--color-blue-light) 100%);
   }
 </style>

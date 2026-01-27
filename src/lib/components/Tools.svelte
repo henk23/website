@@ -32,9 +32,10 @@
   import logo_apache from '$lib/assets/tools/apache.svg';
 
   import logo_vite from '$lib/assets/tools/vite.svg';
-  import logo_sass from '$lib/assets/tools/sass.svg';
+  import logo_claude from '$lib/assets/tools/claude.svg';
   import logo_git from '$lib/assets/tools/git.svg';
   import logo_docker from '$lib/assets/tools/docker.svg';
+  import logo_kubernetes from '$lib/assets/tools/kubernetes.svg';
   import logo_jira from '$lib/assets/tools/jira.svg';
 
   const standards = [
@@ -75,16 +76,17 @@
   ];
 
   const server = [
-    { name: 'Ubuntu', icon: logo_ubuntu, width: '254.06', height: '400' },
     { name: 'Caddy', icon: logo_caddy, width: '1859.13', height: '471.05' },
     { name: 'Nginx', icon: logo_nginx, width: '939.45', height: '196.91' },
     { name: 'Apache', icon: logo_apache, width: '867.34', height: '349.9' },
+    { name: 'Ubuntu', icon: logo_ubuntu, width: '254.06', height: '400' },
   ];
 
   const tools = [
     { name: 'Vite', icon: logo_vite, width: '410', height: '404' },
-    { name: 'SASS', icon: logo_sass, width: '547.48', height: '410.58' },
+    { name: 'Claude Code', icon: logo_claude, width: '100', height: '101' },
     { name: 'Docker', icon: logo_docker, width: '756.26', height: '596.9' },
+    { name: 'Kubernetes', icon: logo_kubernetes, width: '176.65', height: '170.75' },
     { name: 'Git', icon: logo_git, width: '92pt', height: '92pt' },
     { name: 'Jira', icon: logo_jira, width: '127.56', height: '131.89' },
   ];
@@ -111,11 +113,11 @@
         {area.title}
       </h3>
 
-      <div class="flex flex-wrap items-center justify-center mb-8">
+      <div class="flex flex-wrap items-center justify-center mb-8 {area.title === 'Tools' ? 'max-w-160 lg:max-w-240 mx-auto' :''}">
         {#each area.items as item}
-          <figure class="flex flex-col items-center justify-center w-36 h-36 p-4 sm:h-44 lg:w-56 lg:p-8">
+          <figure class="flex flex-col items-center justify-center w-36 h-32 p-4 lg:w-56 lg:h-44 lg:p-8">
             <img
-              class="block w-full h-full object-contain"
+              class="block w-full max-w-22 lg:max-w-none h-full object-contain"
               src={item.icon}
               alt={`${item.name} Logo`}
               width={item.width}

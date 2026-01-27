@@ -1,21 +1,26 @@
 <script>
   import { fadeIn } from '$lib/utils.js';
   import logo_agiplan from '$lib/assets/logo-wall/logo-agiplan.svg';
+  import logo_aldi_sued from '$lib/assets/logo-wall/logo-aldi-sued.svg';
   import logo_aldi_talk from '$lib/assets/logo-wall/logo-aldi-talk.svg';
   import logo_carstens_stiftung from '$lib/assets/logo-wall/logo-carstens-stiftung.svg';
   import logo_correctiv from '$lib/assets/logo-wall/logo-correctiv.svg';
+  import logo_dhl from '$lib/assets/logo-wall/logo-dhl.svg';
   import logo_fressnapf from '$lib/assets/logo-wall/logo-fressnapf.svg';
   import logo_gerry_weber from '$lib/assets/logo-wall/logo-gerry-weber.svg';
   import logo_hessnatur from '$lib/assets/logo-wall/logo-hessnatur.svg';
   import logo_hmmh from '$lib/assets/logo-wall/logo-hmmh.svg';
   import logo_kinderhut from '$lib/assets/logo-wall/logo-kinderhut.svg';
   import logo_koch_essen from '$lib/assets/logo-wall/logo-koch-essen.svg';
+  import logo_lichthof_theater from '$lib/assets/logo-wall/logo-lichthof-theater.svg';
   import logo_makita from '$lib/assets/logo-wall/logo-makita.svg';
   import logo_medion from '$lib/assets/logo-wall/logo-medion.svg';
   import logo_metro from '$lib/assets/logo-wall/logo-metro.svg';
+  import logo_orangerie_theater from '$lib/assets/logo-wall/logo-orangerie-theater.svg';
   import logo_primagas from '$lib/assets/logo-wall/logo-primagas.svg';
   import logo_schaeffler from '$lib/assets/logo-wall/logo-schaeffler.svg';
   import logo_studio_buehne from '$lib/assets/logo-wall/logo-studio-buehne.svg';
+
 
 
   const logos = [
@@ -32,12 +37,12 @@
     { icon: logo_hmmh, name: 'hmmh', width: '240', height: '72' },
     { icon: logo_gerry_weber, name: 'Gerry Weber', width: '272.08', height: '24.19' },
     { icon: logo_schaeffler, name: 'Schaeffler', width: '228', height: '25.88' },
-    { icon: logo_hessnatur, name: 'Hessnatur', width: '220', height: '53.01' },
+    { icon: logo_hessnatur, name: 'Hessnatur', width: '220', height: '53.02' },
 
-    { icon: logo_carstens_stiftung, name: 'Carstens Stiftung', width: '140', height: '140' },
     { icon: logo_correctiv, name: 'Correctiv', width: '176', height: '58.6' },
-    { icon: logo_agiplan, name: 'Agiplan', width: '177.57', height: '59.18' },
     { icon: logo_studio_buehne, name: 'Studio Buehne', width: '132', height: '106.54' },
+    { icon: logo_orangerie_theater, name: 'Orangerie Theater', width: '160', height: '120' },
+    { icon: logo_lichthof_theater, name: 'Lichthof Theater', width: '215', height: '51' },
   ];
 </script>
 

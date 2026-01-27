@@ -1,0 +1,22 @@
+{
+  "title": "Orangerie Theater",
+  "image": "orangerie-theater.webp",
+  "image_width": "1200",
+  "image_height": "800",
+  "link": "https://www.orangerie-theater.de/",
+  "description": "2025 wurde das Orangerie Theater im Kölner Volksgarten umfassend renoviert, besonders im Hinblick auf Barrierefreiheit. Passend dazu durfte ich eine neue, barrierefreie Webseite umsetzen, basierend auf einer Vorlage von <a href=\"https://wewilllovemondays.com/de/\" target=\"_blank\" rel=\"noreferrer\">Felix Bo&szlig;e</a>.",
+  "details": [
+    {
+      "key": "Auftraggeber",
+      "value": "<a href=\"https://www.orangerie-theater.de/\" target=\"_blank\" rel=\"noreferrer\">Orangerie Theater</a>"
+    },
+    {
+      "key": "Zeitraum",
+      "value": "2025"
+    },
+    {
+      "key": "Leistung",
+      "value": "Neubau der Website mit Fokus auf Barrierefreiheit"
+    }
+  ]
+}

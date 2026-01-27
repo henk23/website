@@ -5,7 +5,9 @@ export async function load() {
 
   for (const path in modules) {
     const module = await modules[path]();
-    projects.push(module.default);
+    if(!module.default.hidden) {
+      projects.push(module.default);
+    }
   }
 
   return {

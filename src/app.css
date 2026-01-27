@@ -103,11 +103,6 @@
   }
 }
 
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
 @utility bg-white {
   & .text-gradient {
     background: linear-gradient(

@@ -9,11 +9,11 @@
 <section class="bg-hero" style={heroStyle}>
   <div class="container max-sm:max-w-48 px-4 pt-8 pb-8 ml-0 text-white sm:pt-32 sm:pb-16 sm:mx-auto lg:py-44 lg:text-xl lg:flex lg:items-start lg:justify-start">
     <div class="font-bold">
-      <div class="text-4xl sm:text-5xl lg:text-6xl leading-none">
+      <div class="text-4xl sm:text-5xl lg:text-6xl">
         Heiko Salmon
       </div>
 
-      <div class="inline-block text-2xl sm:text-3xl lg:text-4xl text-gradient leading-none">
+      <div class="inline-block text-2xl sm:text-3xl lg:text-4xl text-gradient">
         Senior <span class="whitespace-nowrap">Full Stack</span><br>Web Developer
       </div>
 
@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<style lang="postcss">
+<style>
   .bg-hero {
     background-repeat: no-repeat;
     background-position: calc(50% - 3rem) 0;

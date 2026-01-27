@@ -63,7 +63,7 @@
   </div>
 </section>
 
-<style lang="postcss">
+<style>
   @media (min-width: 640px) and (max-width: 1023px) {
 
     .logo:last-child:nth-child(3n - 2) {
